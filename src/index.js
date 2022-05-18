@@ -1,13 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import css from "./style.css";
+import "./style.css";
 import App from "./component/App";
-import Arrays from "./component/Arrays";
 
 ReactDOM.render(
   <div>
-    {/* <App /> */}
-    <Arrays />
+    <App />
   </div>,
   document.getElementById("root")
 );
